@@ -1,56 +1,36 @@
-* {
+ * {
   box-sizing: border-box;
+  color: #2e3440;
   font-family: Montserrat, sans-serif;
+  font-weight: 900;
+  line-height: 2rem;
   margin: 0;
   padding: 0;
 }
 
-.hero {
-  align-items: center;
-  background-blend-mode: multiply;
-  background-color: #4747FF;
-  background-image: url("background.jpg");
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  justify-content: center;
+
+.main {
+  margin: 2rem auto;
+  max-width: 700px;
+  padding: 0px 50px;
 }
 
-.hero .centered {
-  margin: auto;
-  text-align: center;
+a {
+  color: #ff2e88;
 }
-.hero .centered h1 {
+
+a:hover {
+  background-color: #ff2e88;
   color: #fff;
-  font-size: 10vw;
-  text-transform: uppercase;
 }
 
-.hero .centered h3 {
-  color: #fff;
-  font-size: 6vw;
-  text-align: center;
-  text-transform: uppercase;
+.projects .project {
+  border: 1px solid #ff2e88;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding: 1rem;
 }
 
-.hero .links {
-  align-self: flex-start;
-  padding: 10px;
-  text-align: center;
-  text-transform: uppercase;
-  width: 100%;
+.section {
+  margin-bottom: 1.5rem;
 }
-
-.hero .links a {
-  color: #fff;
-  font-size: 2rem;
-  margin: 10px;
-  text-decoration: none;
-}
-
-img.avatar {
-  border-radius: 50%;
-  margin: 0px auto;
-  max-width: 25vh;
-  width: 50vw; }
