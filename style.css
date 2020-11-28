@@ -1,13 +1,16 @@
  * {
   box-sizing: border-box;
   color: #2e3440;
-  font-family: Montserrat, sans-serif;
+  font-family: "Cartograph CF", Montserrat, sans-serif;
   font-weight: 900;
   line-height: 2rem;
   margin: 0;
   padding: 0;
 }
 
+h1, h2, h3, h4, h5 {
+  font-family: Montserrat, sans-serif;
+}
 
 .main {
   margin: 2rem auto;
@@ -26,6 +29,7 @@ a:hover {
 
 .projects .project {
   border: 1px solid #ff2e88;
+  border-radius: 3px;
   margin-bottom: 1rem;
   margin-top: 1rem;
   padding: 1rem;
@@ -33,4 +37,18 @@ a:hover {
 
 .section {
   margin-bottom: 1.5rem;
+}
+
+@font-face {
+  font-family: "Cartograph CF";
+  src: url("fonts/CartographCF-Light.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cartograph CF";
+  src: url("fonts/CartographCF-LightItalic.woff");
+  font-weight: normal;
+  font-style: italic;
 }
