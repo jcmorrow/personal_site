@@ -8,7 +8,8 @@
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: "helvetica neue", helvetica, arial, geneva, sans-serif;
+  font-family: "MADE Dillan", "helvetica neue", helvetica, arial, geneva, sans-serif;
+  font-weight: 400;
 }
 
 
@@ -56,4 +57,13 @@ a:hover {
   src: url("fonts/CartographCF-LightItalic.woff");
   font-weight: normal;
   font-style: italic;
+}
+
+@font-face {
+    font-family: "MADE Dillan";
+    src: url("fonts/MADEDillan.woff2") format("woff2"),
+        url("fonts/MADEDillan.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
