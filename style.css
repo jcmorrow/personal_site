@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
  * {
   box-sizing: border-box;
   color: #2e3440;
-  font-family: "helvetica neue", helvetica, arial, geneva, sans-serif;
+  font-family: "Inter", helvetica, arial, geneva, sans-serif;
   line-height: 2rem;
   margin: 0;
   padding: 0;
@@ -44,6 +46,7 @@ a:hover {
 .section {
   margin-bottom: 1.5rem;
 }
+
 
 @font-face {
   font-family: "Cartograph CF";
