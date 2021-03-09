@@ -14,6 +14,9 @@ h1, h2, h3, h4, h5 {
   font-weight: 400;
 }
 
+.right {
+  float: right;
+}
 
 pre code {
   font-family: "Cartograph CF", monospace;
@@ -34,6 +37,11 @@ a:hover {
   background-color: #ff2e88;
   color: #fff;
 }
+
+a.no-highlight:hover {
+  background-color: transparent;
+}
+
 
 .projects .project {
   border: 1px solid #ff2e88;
