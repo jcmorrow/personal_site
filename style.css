@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+body {
+  border-top: 10px solid #ff2e88;
+}
+
  * {
   box-sizing: border-box;
   color: #2e3440;
