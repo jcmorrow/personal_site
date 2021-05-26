@@ -46,7 +46,6 @@ a.no-highlight:hover {
   background-color: transparent;
 }
 
-
 .projects .project {
   border: 1px solid #ff2e88;
   border-radius: 3px;
@@ -59,6 +58,14 @@ a.no-highlight:hover {
   margin-bottom: 1.5rem;
 }
 
+.callout {
+  border: 1px solid #ff2e88;
+  /* box-shadow: 0px 2px 5px 3px #ff2e8875; */
+  border-radius: 3px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding: 1rem;
+}
 
 @font-face {
   font-family: "Cartograph CF";
