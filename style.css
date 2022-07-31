@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 body {
   border-top: 10px solid #ff2e88;
 }
 
- * {
+* {
   box-sizing: border-box;
   color: #2e3440;
   font-family: "Inter", helvetica, arial, geneva, sans-serif;
@@ -13,8 +13,13 @@ body {
   padding: 0;
 }
 
-h1, h2, h3, h4, h5 {
-  font-family: "MADE Dillan", "helvetica neue", helvetica, arial, geneva, sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "MADE Dillan", "helvetica neue", helvetica, arial, geneva,
+    sans-serif;
   font-weight: 400;
 }
 
@@ -27,7 +32,10 @@ pre code {
   overflow: scroll;
 }
 
-.main, main, header, footer {
+.main,
+main,
+header,
+footer {
   margin: 2rem auto;
   max-width: 800px;
   padding: 0px 50px;
@@ -35,6 +43,10 @@ pre code {
 
 a {
   color: #ff2e88;
+  border-radius: 2px;
+}
+a:hover {
+  outline: 3px solid #ff2e88;
 }
 
 a:hover {
@@ -82,10 +94,10 @@ a.no-highlight:hover {
 }
 
 @font-face {
-    font-family: "MADE Dillan";
-    src: url("fonts/MADEDillan.woff2") format("woff2"),
-        url("fonts/MADEDillan.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "MADE Dillan";
+  src: url("fonts/MADEDillan.woff2") format("woff2"),
+    url("fonts/MADEDillan.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
