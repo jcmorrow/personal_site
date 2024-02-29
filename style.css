@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 body {
-  border-top: 10px solid #ff2e88;
+  border-top: 10px solid #ff2e88 !important;
 }
 
 * {
@@ -102,8 +102,4 @@ a.no-highlight:hover {
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-}
-
-#upvote-form {
-  display: none;
 }
