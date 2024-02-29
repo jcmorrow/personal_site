@@ -27,7 +27,7 @@ h5 {
   float: right;
 }
 
-pre code {
+pre, pre code {
   font-family: "Cartograph CF", monospace;
   overflow: scroll;
 }
