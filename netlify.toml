@@ -2,3 +2,9 @@
   for = "/video/*"
     [headers.values]
     Access-Control-Allow-Origin = "*"
+
+[[redirects]]
+  from = "/meet"
+  to = "https://calendly.com/_jcmorrow/half-hour-chat"
+  status = 200
+  force = true
